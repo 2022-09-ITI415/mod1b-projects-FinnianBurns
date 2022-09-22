@@ -364,5 +364,9 @@ PrefabInstance:
       propertyPath: leftAndRightEdge
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 6802391103606659667, guid: 66518be6459ab8b4b8b8032bbc8db38d, type: 3}
+      propertyPath: chanceToChangeDirections
+      value: 0.02
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66518be6459ab8b4b8b8032bbc8db38d, type: 3}

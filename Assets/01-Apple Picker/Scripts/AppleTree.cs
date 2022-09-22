@@ -12,7 +12,7 @@ public class AppleTree : MonoBehaviour
 
     public float leftAndRightEdge = 10f;
 
-    public float chanceToChangeDiractions = 0.1f;
+    public float chanceToChangeDirections = 0.1f;
 
     public float secondsBetweenAppleDrops = 1f;
 
@@ -31,13 +31,17 @@ public class AppleTree : MonoBehaviour
 
         transform.position = pos;
 
-        if(pos.x < -leftAndRightEdge)
+        if (pos.x < -leftAndRightEdge)
         {
             speed = Mathf.Abs(speed);
         }
         else if (pos.x > leftAndRightEdge)
         {
             speed = -Mathf.Abs(speed);
+        }
+        else if (Random.value < chanceToChangeDirections)
+        {
+            speed *= -1;
         }
 
     }
