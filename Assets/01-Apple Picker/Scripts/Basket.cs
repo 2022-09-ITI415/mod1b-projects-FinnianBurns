@@ -25,4 +25,14 @@ public class Basket : MonoBehaviour
 
         this.transform.position = pos;
     }
+
+    void OnCollisionEnter (Collision coll)
+    {
+        GameObject collidedWith = coll.gameObject;
+
+        if (collidedWith.tag == "Apple")
+        {
+            Destroy(collidedWith);
+        }
+    }
 }
