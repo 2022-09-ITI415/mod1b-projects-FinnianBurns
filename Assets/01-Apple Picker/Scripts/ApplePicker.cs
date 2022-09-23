@@ -23,7 +23,7 @@ public class ApplePicker : MonoBehaviour
 
             Vector3 pos = Vector3.zero;
 
-            pos.y = basketBottomY + (basketSpacingY);
+            pos.y = basketBottomY + (basketSpacingY * i);
 
             tBasketGO.transform.position = pos;
         }
