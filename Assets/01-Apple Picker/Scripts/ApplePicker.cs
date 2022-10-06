@@ -44,7 +44,7 @@ public class ApplePicker : MonoBehaviour
         {
             Destroy(tGO);
 
-            int basketIndex = basketList.Count-1;
+            int basketIndex = basketList.Count - 1;
 
             GameObject tBasketGO = basketList[basketIndex];
 
@@ -53,7 +53,7 @@ public class ApplePicker : MonoBehaviour
 
             if ( basketList.Count == 0 )
             {
-                SceneManager.LoadScene( "_Scene_0" );
+                SceneManager.LoadScene( "Main-ApplePicker" );
             }
 
         }       
