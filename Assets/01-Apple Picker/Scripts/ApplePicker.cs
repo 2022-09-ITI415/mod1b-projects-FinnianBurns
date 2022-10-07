@@ -43,6 +43,7 @@ public class ApplePicker : MonoBehaviour
         foreach(GameObject tGO in tAppleArray)
         {
             Destroy(tGO);
+        }
 
             int basketIndex = basketList.Count - 1;
 
@@ -56,7 +57,7 @@ public class ApplePicker : MonoBehaviour
                 SceneManager.LoadScene( "Main-ApplePicker" );
             }
 
-        }       
+               
     }
 
     
