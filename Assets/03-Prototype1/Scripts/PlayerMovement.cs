@@ -5,6 +5,13 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private Vector2 _direction = Vector2.right;
+    //private List<Transform> _segments;
+
+    //private void Start()
+    //{
+       //_segments = new List<Transform>();
+        //_segments.Add(this.transform);
+    //}
 
     private void Update()
     {
