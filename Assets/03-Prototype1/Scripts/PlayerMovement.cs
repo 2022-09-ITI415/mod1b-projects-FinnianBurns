@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _direction = Vector2.right;
     private List<Transform> _segments;
 
+    public Transform segmentPrefab;
+
     private void Start()
     {
        _segments = new List<Transform>();
@@ -42,5 +44,13 @@ public class PlayerMovement : MonoBehaviour
             0.0f
         );
     }
+
+    //private void Grow()
+    //{
+        //Transform segment = Instantiate(this.segmentPrefab);
+        //segment.position = _segments[_segments.Count - 1].position;
+
+        //_segments.Add(segment)
+    //}
 
 }
