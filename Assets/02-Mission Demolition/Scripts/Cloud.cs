@@ -22,7 +22,8 @@ public class Cloud : MonoBehaviour
         spheres = new List<GameObject>();
 
         int num = Random.Range(numSpheresMin, numSpheresMax);
-        for(int i = 0; i<num; i++) {
+        for(int i = 0; i<num; i++) 
+		{
         	GameObject sp = Instantiate<GameObject>(cloudSphere);
         	spheres.Add(sp);
         	Transform spTrans = sp.transform;
@@ -52,9 +53,10 @@ public class Cloud : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       // if (Input.GetKeyDown(KeyCode.Space)) {
-       // 	Restart();
-       // }
+        //if (Input.GetKeyDown(KeyCode.Space)) 
+		//{
+        	//Restart();
+        //}
     }
 
     void Restart() {
