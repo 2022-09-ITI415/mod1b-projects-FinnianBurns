@@ -515,7 +515,7 @@ GameObject:
   - component: {fileID: 853496598}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -640,15 +640,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2783375966832560537, guid: cda56bb3a41c0964dbb8e53bb8f5e085, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2783375966832560537, guid: cda56bb3a41c0964dbb8e53bb8f5e085, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2783375966832560537, guid: cda56bb3a41c0964dbb8e53bb8f5e085, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.4999981
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2783375966832560537, guid: cda56bb3a41c0964dbb8e53bb8f5e085, type: 3}
       propertyPath: m_LocalRotation.w
@@ -656,15 +656,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2783375966832560537, guid: cda56bb3a41c0964dbb8e53bb8f5e085, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2783375966832560537, guid: cda56bb3a41c0964dbb8e53bb8f5e085, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2783375966832560537, guid: cda56bb3a41c0964dbb8e53bb8f5e085, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2783375966832560537, guid: cda56bb3a41c0964dbb8e53bb8f5e085, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -840,7 +840,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 38, y: 38}
+  m_Size: {x: 35, y: 35}
   m_EdgeRadius: 0
 --- !u!4 &1450241946
 Transform:
