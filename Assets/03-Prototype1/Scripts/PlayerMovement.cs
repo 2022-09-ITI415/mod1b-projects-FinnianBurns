@@ -45,12 +45,20 @@ public class PlayerMovement : MonoBehaviour
         );
     }
 
-    //private void Grow()
-    //{
-        //Transform segment = Instantiate(this.segmentPrefab);
-        //segment.position = _segments[_segments.Count - 1].position;
+    private void Grow()
+    {
+        Transform segment = Instantiate(this.segmentPrefab);
+        segment.position = _segments[_segments.Count - 1].position;
 
-        //_segments.Add(segment)
-    //}
+        _segments.Add(segment);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Fruit")
+        {
+            Grow();
+        }
+    }
 
 }

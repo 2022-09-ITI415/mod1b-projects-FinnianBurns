@@ -686,6 +686,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fruit
       objectReference: {fileID: 0}
+    - target: {fileID: 6153079971959568369, guid: cda56bb3a41c0964dbb8e53bb8f5e085, type: 3}
+      propertyPath: m_TagString
+      value: Fruit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cda56bb3a41c0964dbb8e53bb8f5e085, type: 3}
 --- !u!1 &1336378819 stripped
